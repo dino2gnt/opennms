@@ -28,9 +28,6 @@
 
 package org.opennms.features.deviceconfig.rest.api;
 
-import org.opennms.features.deviceconfig.persistence.api.DeviceConfigStatus;
-import org.opennms.features.deviceconfig.rest.BackupRequestDTO;
-
 import java.util.List;
 import java.util.Set;
 import javax.ws.rs.Consumes;
@@ -44,6 +41,8 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
+import org.opennms.features.deviceconfig.persistence.api.DeviceConfigStatus;
+import org.opennms.features.deviceconfig.rest.BackupRequestDTO;
 
 @Path("/device-config")
 public interface DeviceConfigRestService {
@@ -75,6 +74,15 @@ public interface DeviceConfigRestService {
      */
     @GET
     @Produces(MediaType.APPLICATION_JSON)
+    /*
+    @Operation(summary = "Get device config records using the available filters", description = "Get all events")
+    @ApiResponses(value = {
+        @ApiResponse(responseCode = "200", description = "Successful operation",
+            content = @Content),
+        @ApiResponse(responseCode = "204", description = "No records found",
+            content = @Content)
+    })
+     */
     Response getDeviceConfigs(
         @QueryParam("limit") @DefaultValue("10") Integer limit,
         @QueryParam("offset") @DefaultValue("0") Integer offset,
