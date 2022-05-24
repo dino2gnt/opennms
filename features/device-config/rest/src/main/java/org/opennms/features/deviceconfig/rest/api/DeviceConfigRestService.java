@@ -28,6 +28,10 @@
 
 package org.opennms.features.deviceconfig.rest.api;
 
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.media.Content;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import java.util.List;
 import java.util.Set;
 import javax.ws.rs.Consumes;
@@ -74,7 +78,6 @@ public interface DeviceConfigRestService {
      */
     @GET
     @Produces(MediaType.APPLICATION_JSON)
-    /*
     @Operation(summary = "Get device config records using the available filters", description = "Get all events")
     @ApiResponses(value = {
         @ApiResponse(responseCode = "200", description = "Successful operation",
@@ -82,7 +85,6 @@ public interface DeviceConfigRestService {
         @ApiResponse(responseCode = "204", description = "No records found",
             content = @Content)
     })
-     */
     Response getDeviceConfigs(
         @QueryParam("limit") @DefaultValue("10") Integer limit,
         @QueryParam("offset") @DefaultValue("0") Integer offset,
