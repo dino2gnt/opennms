@@ -1962,7 +1962,6 @@
         <feature>commons-compress</feature>
         <feature>cron-parser-core</feature>
         <feature>opennms-osgi-core-rest</feature>
-        <feature>cxf-rs-description-openapi-v3</feature>
         <bundle>wrap:mvn:io.swagger.core.v3/swagger-annotations/2.2.0</bundle>
         <bundle>mvn:org.opennms.features.device-config/org.opennms.features.device-config.rest/${project.version}</bundle>
         <bundle>mvn:org.opennms.features.device-config/org.opennms.features.device-config.api/${project.version}</bundle>
