@@ -1787,7 +1787,7 @@
     <osgiJaxRsVersion>1.1.0.ONMS</osgiJaxRsVersion>
     <opencsvVersion>2.3</opencsvVersion>
     <opentracingVersion>0.31.0</opentracingVersion>
-    <jeagertracingVersion>0.34.0</jeagertracingVersion>
+    <jeagertracingVersion>1.8.1</jeagertracingVersion>
     <lz4JavaVersion>1.7.1</lz4JavaVersion>
     <quartzVersion>2.2.3</quartzVersion>
     <rancidApiVersion>2.0.0</rancidApiVersion>
