@@ -22,7 +22,7 @@
     "@featherds/dialog": "0.10.15",
     "@featherds/drawer": "0.10.15",
     "@featherds/dropdown": "0.10.15",
-    "@featherds/expansion": "0.10.15",
+    "@featherds/expansion": "0.11.2",
     "@featherds/icon": "0.10.15",
     "@featherds/input": "0.10.15",
     "@featherds/list": "0.10.15",
