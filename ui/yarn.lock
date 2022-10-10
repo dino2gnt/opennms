@@ -376,7 +376,12 @@
     "@featherds/utils" "^0.10.17"
     vue "^3.1.0"
 
-"@featherds/utils@0.10.17", "@featherds/utils@^0.10.17":
+"@featherds/utils@0.12.4":
+  version "0.12.4"
+  resolved "https://registry.yarnpkg.com/@featherds/utils/-/utils-0.12.4.tgz#78d38d682a48b025c5dc0546a8a6e01d920d77ed"
+  integrity sha512-gbwFtX49l2vjEmA9wL+0AtNPk6E8C+0sm5mgdtFkEFJJfYOqBN+WgEz6Z/q+ExCWeo/s4CU2rMs4WLZO7nYEiw==
+
+"@featherds/utils@^0.10.17":
   version "0.10.17"
   resolved "https://registry.yarnpkg.com/@featherds/utils/-/utils-0.10.17.tgz#8687af26c2b0821aa513989c7dde5b0e6dcae41d"
   integrity sha512-+aWVAGTZ/m16feuuFAJX6H3ze2zpVu+RzAx4PA9Q2WsBJj/qfmp2VQFkohW3Wypg4Fj37vMiTD56iA1/jTEgXg==
