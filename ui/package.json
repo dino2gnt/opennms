@@ -40,7 +40,7 @@
     "@featherds/tabs": "0.10.17",
     "@featherds/textarea": "0.10.17",
     "@featherds/tooltip": "0.10.17",
-    "@featherds/utils": "0.10.17",
+    "@featherds/utils": "0.12.18",
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
     "@fortawesome/free-regular-svg-icons": "^6.2.0",
     "@fortawesome/free-solid-svg-icons": "^6.2.0",
