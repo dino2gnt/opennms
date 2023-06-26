@@ -35,7 +35,7 @@
     "@featherds/progress": "0.10.17",
     "@featherds/protected-input": "0.10.17",
     "@featherds/radio": "0.10.17",
-    "@featherds/select": "0.10.17",
+    "@featherds/select": "0.12.20",
     "@featherds/snackbar": "0.10.17",
     "@featherds/styles": "0.10.17",
     "@featherds/table": "0.10.17",
